@@ -12,7 +12,7 @@ body {
   line-height: 1.5;
   font-size: 15px;
   color: #000000;
-  background: #E8E5DE; }
+  background: #fff; }
   body:before {
     content: "";
     position: fixed;
