@@ -4,6 +4,7 @@ AOS.init({
 	once: true
 });
 
+
 $(function(){
 
 	'use strict';
@@ -411,4 +412,22 @@ $(function(){
 	}
 	pricing();
 
-})
+});
+
+var html = $("html");
+
+$(function darkmode(){
+	$(".toggle").click(function(){
+		if (html.hasClass("dark-mode")){
+			html.removeClass("dark-mode");
+			localStorage.setItem("dark-mode", false);
+		} else {
+			html.addClass("dark-mode");
+			localStorage.setItem("dark-mode", true);
+		}
+	});
+});
+
+if(localStorage.getItem("dark-mode") == "true"){
+	$("html").addClass("dark-mode");
+}
