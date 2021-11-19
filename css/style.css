@@ -92,13 +92,11 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 .dark-mode html{
   color: white;
   background: black;
-  transition: 0.4s all ease-in-out;
 }
 
 .dark-mode body{
   color: white;
   background: black;
-  transition: 0.4s all ease-in-out;
 }
 
 .dark-mode .circle {
@@ -107,17 +105,14 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 
 .dark-mode .hero-heading {
   color: white;
-  transition: 0.4 all ease-in-out
 }
 
 .dark-mode .logo{
   color: white;
-  transition: .4s all ease-in-out;
 }
 
 .dark-mode .line{
   background-color: white;
-  transition: .4s all ease-in-out;
 }
 
 .dark-mode .burger:before, .burger span, .burger:after {
@@ -149,12 +144,10 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 .dark-mode .site-mobile-menu-close > span {
   background: black;
   /* color: white; */
-  transition: 0.4s all ease-in-out;
 }
 
 .dark-mode .site-menus {
   color: white;
-  transition: 0.4s all ease-in-out;
 }
 
 .toggle-moon, .toggle-sun {
