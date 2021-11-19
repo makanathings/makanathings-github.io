@@ -77,6 +77,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   cursor: pointer;
   background: black;
   color: white;
+  margin-left: 15px;
 }
 
 .circle {
@@ -125,7 +126,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   opacity: 1;
 }
 
-.dark-mode h2 h3 {
+.dark-mode h1, h2, h3, h4, h5 {
   color: white;
 }
 
@@ -137,17 +138,34 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   color: white;
 }
 
-.dark-mdoe .more {
+.dark-mode .more {
   color: white;
 }
 
-.dark-mode .site-mobile-menu-close > span {
-  background: black;
+.dark-mode .site-mobile-menu-close:before, .site-mobile-menu-close span, .site-mobile-menu-close:after {
+  color: white !important;
   /* color: white; */
+}
+
+.dark-mode .site-navbar-target {
+  background: black;
+  color: white;
+}
+
+.dark-mode .site-mobile-menu .site-nav-wrap a {
+  color: white;
+}
+
+.dark-mode .site-mobile-menu .site-nav-wrap a:hover {
+  color: white;
 }
 
 .dark-mode .site-menus {
   color: white;
+}
+
+.dark-mode .btn .btn-primary .btn-primary:hover {
+  background: white;
 }
 
 .toggle-moon, .toggle-sun {
@@ -165,15 +183,15 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
     outline: none;
     -webkit-box-shadow: none;
     box-shadow: none; }
-  .btn.btn-primary {
+  .btn .btn-primary {
     background: black;
     border-color: black; }
-    .btn.btn-primary:hover {
+    .btn .btn-primary:hover {
       border-color: #0a0a0a;
       background: #0a0a0a; }
-  .btn.btn-white {
+  .btn .btn-white {
     background-color: white; }
-    .btn.btn-white:hover {
+    .btn .btn-white:hover {
       background-color: transparent;
       border-color: white;
       color: white; }
